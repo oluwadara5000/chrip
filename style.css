@@ -78,6 +78,14 @@ header {
   padding-bottom: 55px;
 }
 
+#hero-tablet{
+  display: none;
+}
+
+#hero-desktop{
+  display: block;
+}
+
 .left {
   padding-top: 60px;
   width: 605px;
@@ -853,8 +861,7 @@ footer {
   }
 
   .features div p {
-    font-size: 14px;
-    color: red;
+    font-size: 12px;
   }
 
   .third-div {
@@ -926,5 +933,1640 @@ footer {
 
   .footer-list ul > li {
     font-size: 18px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 526px TO 600px */
+@media screen and (min-width: 526px) and (max-width: 600px) {
+  section {
+    width: 525px;
+    margin: auto;
+  }
+
+  .navigation-bar {
+    display: block;
+  }
+
+  header {
+    padding: 35px 40px;
+  }
+
+  .list-div {
+    display: none;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  #sign {
+    margin: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 100%;
+  }
+
+  .second-div {
+    padding: 80px 40px;
+  }
+
+  .second-div h1 {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 14px;
+  }
+
+  .third-div {
+    padding: 50px 40px;
+  }
+
+  .third-div > h1 {
+    font-size: 32px;
+  }
+
+  .tweets-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 40px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 30px 15px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 40px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer p {
+    margin-bottom: 15px;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 18px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 601px TO 685px */
+@media screen and (min-width: 601px) and (max-width: 685px) {
+  section {
+    width: 600px;
+    margin: auto;
+  }
+
+  .navigation-bar {
+    display: block;
+  }
+
+  header {
+    padding: 35px 40px;
+  }
+
+  .list-div {
+    display: none;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  #sign {
+    margin: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 100%;
+  }
+
+  .second-div {
+    padding: 80px 40px;
+  }
+
+  .second-div h1 {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+    padding: 0 40px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 14px;
+  }
+
+  .third-div {
+    padding: 50px 40px;
+  }
+
+  .third-div > h1 {
+    font-size: 32px;
+  }
+
+  .tweets-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 60px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 30px 30px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 40px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer p {
+    margin-bottom: 15px;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 18px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 686px TO 767px */
+@media screen and (min-width: 686px) and (max-width: 767px) {
+  section {
+    width: 685px;
+    margin: auto;
+  }
+
+   .navigation-bar {
+    display: block;
+  }
+
+  header {
+    padding: 35px 40px;
+  }
+
+  .list-div {
+    display: none;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  #sign {
+    margin: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 100%;
+  }
+
+  .second-div {
+    padding: 80px 40px;
+  }
+
+  .second-div h1 {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+    padding: 0 40px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 16px;
+  }
+
+  .third-div {
+    padding: 50px 40px;
+  }
+
+  .third-div > h1 {
+    font-size: 32px;
+  }
+
+  .tweets-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 40px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 60px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 30px 30px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 40px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer p {
+    margin-bottom: 15px;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 18px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 768px TO 840px */
+
+@media screen and (min-width: 768px) and (max-width: 840px) {
+  section {
+    width: 768px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 40px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px 40px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 40px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 40px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 841px TO 915px */
+@media screen and (min-width: 841px) and (max-width: 915px) {
+  section {
+    width: 840px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 40px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 40px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px 40px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 40px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 40px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 916px TO 990px */
+
+@media screen and (min-width: 916px) and (max-width: 990px) {
+  section {
+    width: 915px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 80px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 80px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 40px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 80px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 25px 80px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 991px TO 1065px */
+
+@media screen and (min-width: 991px) and (max-width: 1065px) {
+  section {
+    width: 990px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 80px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 80px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 40px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 80px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 25px 80px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1066px TO 1140px */
+
+@media screen and (min-width: 1066px) and (max-width: 1140px) {
+  section {
+    width: 1065px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 80px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 80px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 40px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 80px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 25px 80px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
+  }
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 1141px TO 1439px */
+
+@media screen and (min-width: 1141px) and (max-width: 1439px) {
+  section {
+    width: 1140px;
+    margin: auto;
+  }
+
+  #hero-tablet{
+    display: block;
+  }
+
+  #hero-desktop{
+    display: none;
+  }
+
+  .navigation-bar {
+    display: none;
+  }
+
+  header {
+    padding: 40px 80px;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 80px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+
+  .left p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  #sign {
+    margin: 0;
+    margin-right: 25px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 460px;
+    font-size: 18px;
+  }
+
+  .second-div {
+    padding: 80px;
+  }
+
+  .second-div h1 {
+    width: 390px;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 40px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .third-div {
+    padding: 50px 80px;
+  }
+
+  .third-div > h1 {
+    font-size: 40px;
+  }
+
+  .tweets-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 115px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    font-size: 18px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 40px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    /* margin: 0 15px; */
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 18px;
+  }
+
+  footer {
+    padding: 25px 80px;
+    justify-content: space-between;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 20px;
   }
 }
