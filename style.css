@@ -747,3 +747,181 @@ footer {
     font-size: 18px;
   }
 }
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* FOR SCREENS FROM 451px TO 525px */
+@media screen and (min-width: 451px) and (max-width: 525px) {
+  section {
+    width: 450px;
+    margin: auto;
+  }
+
+  .navigation-bar {
+    display: block;
+  }
+
+  header {
+    padding: 35px 20px;
+  }
+
+  .list-div {
+    display: none;
+  }
+
+  .first-div {
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    padding-bottom: 40px;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .left h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .left p {
+    font-size: 17px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  #sign {
+    margin: 0;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+
+  .avatars p {
+    width: 100%;
+  }
+
+  .second-div {
+    padding: 80px 20px;
+  }
+
+  .second-div h1 {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: auto;
+    gap: 25px;
+  }
+
+  .features div {
+    padding: 20px;
+  }
+
+  .features div h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .features div img {
+    margin-bottom: 15px;
+  }
+
+  .features div p {
+    font-size: 16px;
+  }
+
+  .third-div {
+    padding: 50px 20px;
+  }
+
+  .third-div > h1 {
+    font-size: 32px;
+  }
+
+  .tweets-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tweet {
+    width: 100%;
+  }
+
+  .fourth-div {
+    padding: 80px 20px;
+  }
+
+  .heading {
+    width: 100%;
+  }
+
+  .heading p {
+    margin-bottom: 50px;
+  }
+
+  .plan {
+    padding: 30px 15px;
+  }
+
+  .plan-cost {
+    padding-bottom: 15px;
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul {
+    margin: 0 15px;
+    margin-bottom: 15px;
+  }
+
+  .plan ul > li {
+    align-items: start;
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 25px 20px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer p {
+    margin-bottom: 15px;
+  }
+
+  .footer-list {
+    gap: 20px;
+  }
+
+  .footer-list ul {
+    gap: 20px;
+  }
+
+  .footer-list ul > li {
+    font-size: 18px;
+  }
+}
