@@ -19,7 +19,49 @@ section {
   background-color: #ffffff;
   width: 1440px;
   margin: auto;
+  position: relative;
 }
+
+.panel{
+  background-color: #D7F5F5;
+  background-color: #FBF8F3;
+  position: absolute;
+  right: 0;
+  top: 92px;
+  height: 450px;
+  width: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.panel ul {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  display: none;
+}
+
+.panel ul > li {
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.panel button{
+  background-color: #1da1f2;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  color: #ffffff;
+  padding: 17px 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.fa-xmark{
+  color: red;
+}
+
 
 header {
   background-color: #fbf8f3;
@@ -31,6 +73,7 @@ header {
 
 .navigation-bar {
   display: none;
+ font-size: 22px;
 }
 
 .logo {
